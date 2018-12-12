@@ -121,7 +121,7 @@ export class GuiModel {
                             "id":   "name",
                             "type": "text",
                             "name": "Activity",
-                            "width": 2
+                            "width": 2,
                             "required": true
                         },
 						{
@@ -289,7 +289,7 @@ export class GuiModel {
 							}
 						},
 					]
-				}
+				},
 				{
 					"id": "activitiespage",
 					"elementList": [
