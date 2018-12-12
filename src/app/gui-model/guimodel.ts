@@ -315,6 +315,41 @@ export class GuiModel {
 							"form": "ActivityForm"
 							}
 						},
+						{
+							"type": "list",
+							"icon": "fa-weixin",
+							"color": "wisteria",
+							"search": true,
+							"url": "/activity/:activityKey/friend",
+							"form": {
+							"form": "ActivityForm"
+							}
+						},
+						{
+							 "type": "button",
+							 "name": "Activity",
+							 "icon": "fa-weixin",
+							 "color": "red",
+							 "page": "activityspage",
+						},
+					]
+				}
+				{
+					"id": "activitypage",
+					"elementList": [
+						{
+							"type": "backbutton",
+						},
+						{
+							"type": "list",
+							"icon": "fa-weixin",
+							"color": "wisteria",
+							"search": true,
+							"url": "/activity",
+							"form": {
+							"form": "AcitivtyForm"
+							}
+						},
 					]
 				}
             ]
