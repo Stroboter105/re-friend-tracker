@@ -333,7 +333,7 @@ export class GuiModel {
 							 "page": "activityspage",
 						},
 					]
-				}
+				},
 				{
 					"id": "activitypage",
 					"elementList": [
